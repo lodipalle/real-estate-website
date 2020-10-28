@@ -93,4 +93,91 @@ button.rounded {
 
 /* Start Header */
 
+#header-hero-container {
+  min-height: 600px;
+  position: relative;
+  height: calc(100vh);
+}
+
+header {
+  padding: 1rem 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+
+#logo {
+  font-family: "Roboto", "Helvetica", "Sans-serif";
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #fff;
+  position: relative;
+  top: 4px;
+}
+
+.hamburger-menu {
+  background-color: transparent;
+  border: 1px solid #fff;
+  width: 30px;
+  margin-top: 10px;
+  display: none;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+
+.hamburger-menu .strip {
+  display: block;
+  height: 1px;
+  background-color: #fff;
+  margin: 4px 0;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#close-flyout {
+  display: none;
+}
+
+header ul li a {
+  color: #999;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+header ul.is-sticky li a {
+  color: #000;
+}
+
+header ul li a:hover,
+header ul li a.active {
+  color: #fff;
+}
+
+header ul.is-sticky li a:hover,
+header ul.is-sticky li a.active {
+  color: #f69314
+}
+
 /* End Header */
+
+
+/* Start Hero */
+
+#hero {
+  background: url('') center center no-repeat;
+  background-size: cover;
+}
+
+/* End Hero */
+
+
