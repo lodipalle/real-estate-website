@@ -174,8 +174,41 @@ header ul.is-sticky li a.active {
 /* Start Hero */
 
 #hero {
-  background: url('') center center no-repeat;
+  background: url('images/banner.jpg') center center no-repeat;
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+#hero .fade {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(52, 58, 64, 0.9);
+}
+
+#hero .hero-text {
+  position: absolute;
+  top: 50%;
+  margin: -75px auto 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  z-index: 2;
+  text-align: center;
+}
+
+#hero .hero-text p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
 }
 
 /* End Hero */
