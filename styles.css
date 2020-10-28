@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
 
-/* Start Global Styles */
+/* Start Global */
 
 body {
   font-family: "Roboto", "Helvetica", "Sans-serif";
@@ -19,4 +19,78 @@ body {
   transition: 0.4s;
 }
 
-/* End Global Styles */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1, h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #f69314;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 3.2rem;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 1rem;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+button.rounded {
+  background: #f69314;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.large-paragraph {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+/* End Global */
+
+
+/* Start Header */
+
+/* End Header */
