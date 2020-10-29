@@ -165,7 +165,7 @@ header ul li a.active {
 
 header ul.is-sticky li a:hover,
 header ul.is-sticky li a.active {
-  color: #f69314
+  color: #f69314;
 }
 
 /* End Header */
@@ -235,8 +235,18 @@ header ul.is-sticky li a.active {
   margin-top: 1rem;
 }
 
-
+#how-it-works span.fas {
+  color: #f69314;
+  font-size: 35px;
+}
 
 /* End How It Works */
+
+
+/* Start Properties */
+
+
+
+/* End Properties */
 
 
