@@ -784,8 +784,75 @@ footer small a:hover {
 
 @media (max-width: 767px) {
   h1 {
-    
+    font-size: 2rem;
   }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .large-paragraph {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+  
+  .container {
+    max-width: 540px;
+  }
+
+  #hero .hero-text {
+    width: 400px;
+  }
+
+  #agents .card {
+    width: 49%;
+  }
+
+  #the-best .flex > img {
+    display: none;
+  }
+
+  #the-best .flex > div {
+    width: 100%;
+  }
+
+  #testimonials-slider p {
+    font-size: 1.2rem;
+  }
+
+  #properties .container:before {
+    top: 2px;
+    font-size: 0.85rem;
+  }
+
+  #properties-slider a.slick-arrow {
+    font-size: 0.85rem;
+  }
+
+  #properties button.rounded {
+    width: 300px;
+  }
+
+  #services .flex > div {
+    width: 48%;
+  }
+
+  #contact .flex {
+    flex-wrap: wrap;
+  }
+
+  #form-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
 }
 
 /* End Media Queries */
