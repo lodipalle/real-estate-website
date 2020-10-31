@@ -853,6 +853,48 @@ footer small a:hover {
     margin-top: 2rem;
   }
 
+  #address-container {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  footer {
+    padding: 6rem 0;
+  }
+
+  footer .flex {
+    flex-wrap: wrap;
+  }
+
+  footer .flex > div {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  footer .flex > div:first-child {
+    margin-top: 0;
+  }
+
+  footer .footer-about p {
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  footer .footer-subscribe input {
+    width: 90%;
+  }
+
+  footer h5.follow-us {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero .hero-text {
+    width: 330px;
+  }
+
+  
 }
 
 /* End Media Queries */
